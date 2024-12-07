@@ -1,0 +1,95 @@
+* {
+    txt: #8aadf4ff;
+    txt-accent: #c6a0f6;
+    accent: var(txt-accent);
+    bg: #1e2030ff;
+    background-color: #00000000;
+    text-color: var(txt);
+    font: "Jetbrains Mono 13";
+}
+
+configuration {
+    display-drun: "⬤";
+    drun-display-format: "{name}";
+    disable-history: false;
+    click-to-exit: true;
+    location: 0;
+}
+
+window {
+    transparency: "real";
+    // border: 2px;
+    // border-color: accent;
+    border-radius: 10px;
+    // width: 300px;
+    fullscreen: true;
+    anchor: "center";
+    x-offset: 0;
+    y-offset: 0;
+    background-color: #00000077;
+}
+
+entry {
+    enabled: true;
+    expand: true;
+    horizontal-align: 0;
+    placeholder: "Search...";
+    blink: true;
+    border: 2px;
+    border-color: var(accent);
+    border-radius: 10px;
+    padding: 8px;
+    text-color: var(txt-accent);
+    background-color: var(bg);
+}
+
+inputbar {
+    enabled: true;
+    children: [ "entry" ];
+    expand: false;
+    border: 0px 0px 0px 0px;
+    border-radius: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    position: center;
+}
+
+listview {
+    background-color: var(bg);
+
+    border-radius: 10px;
+    border: 2px;
+    border-color: var(accent);
+
+    columns: 1;
+    lines: 7;
+    spacing: 3px;
+    cycle: true;
+    dynamic: true;
+    layout: vertical;
+}
+
+mainbox {
+    children: [ inputbar, listview ];
+    spacing: 5px;
+    padding: 15px;
+    margin: 29.5% calc(50% - 20ch);
+}
+
+element {
+    orientation: horizontal;
+    border-radius: 10px;
+    padding: 6px 6px 6px 6px;
+}
+
+element selected {
+    // background-color: accent;
+    text-color: var(txt-accent);
+    border: 0px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+element-text {
+    text-color: inherit;
+    horizontal-align: 0.5;
+}

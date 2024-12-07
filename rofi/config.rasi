@@ -1,0 +1,5 @@
+configuration { 
+    cycle: true; 
+    modi: "drun,window,run"; 
+}
+@theme "custom"
