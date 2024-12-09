@@ -1,6 +1,8 @@
 #!/bin/bash
 
-sudo pacman -S fastfetch kitty fish rofi hyprland waybar hyprpaper tlp ttf-jetbrains-mono-nerd;
+sudo pacman -S fastfetch kitty fish rofi hyprland waybar hyprpaper tlp ttf-jetbrains-mono-nerd nwg-look swayncxdg-desktop-portal-hyprland hyprpolkitagent qt5-wayland qt6-wayland;
+
+systemctl --user enable --now hyprpolkitagent.service
 
 yay -S zapzap hyprshot visual-studio-code-bin;
 
