@@ -1,11 +1,10 @@
 #!/bin/bash
 
-sudo pacman -S fastfetch kitty fish rofi hyprland waybar hyprpaper tlp ttf-jetbrains-mono-nerd nwg-look swayncxdg-desktop-portal-hyprland hyprpolkitagent qt5-wayland qt6-wayland brightnessctl rustup cheese;
+sudo pacman -S fastfetch kitty fish rofi waybar tlp ttf-jetbrains-mono-nerd nwg-look swaync qt5-wayland qt6-wayland brightnessctl rustup cheese;
+
+yay -S hyprland-meta-git zapzap hyprshot-git visual-studio-code-bin;
 
 systemctl --user enable --now hyprpolkitagent.service
-
-yay -S zapzap hyprshot hyprsunset visual-studio-code-bin;
-
 sudo sudo systemctl enable tlp.service;
 sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket;
 cp tlp.conf /etc;
