@@ -2,7 +2,7 @@
 
 sudo pacman -S fastfetch kitty fish rofi waybar tlp ttf-jetbrains-mono-nerd nwg-look swaync qt5-wayland qt6-wayland brightnessctl rustup cheese;
 
-yay -S aylurs-gtk-shell-git hyprland-meta-git zapzap hyprshot-git visual-studio-code-bin;
+yay -S aylurs-gtk-shell-git hyprland-meta-git zapzap hyprshot-git visual-studio-code-bin gtk-engine-murrine lxappearance;
 
 systemctl --user enable --now hyprpolkitagent.service
 sudo sudo systemctl enable tlp.service;
