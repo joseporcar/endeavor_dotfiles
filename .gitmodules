@@ -1,0 +1,3 @@
+[submodule "ags_dots"]
+	path = ags_dots
+	url = https://github.com/joseporcar/ags_dots
