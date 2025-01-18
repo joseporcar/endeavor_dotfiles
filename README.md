@@ -2,6 +2,7 @@ My rice for my current system.
 
 TODO: 
 Urgent:
+- Changing cursor theme
 - Install and test Helix
 - TOP BAR ON AGS
 
