@@ -4,15 +4,20 @@ sudo pacman -S fastfetch kitty fish rofi waybar tlp ttf-jetbrains-mono-nerd nwg-
 
 yay -S aylurs-gtk-shell-git hyprland-meta-git zapzap hyprshot-git visual-studio-code-bin gtk-engine-murrine lxappearance colloid-catppuccin-gtk-theme-git;
 
+# GTK theme
+cp -r /usr/share/themes/Colloid-Dark-Compact-Catppuccin/ .config/gtk-4.0/
+
+
 systemctl --user enable --now hyprpolkitagent.service
+cp -r hypr/ ~/.config;
+
+# TLP
 sudo sudo systemctl enable tlp.service;
 sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket;
 cp tlp.conf /etc;
 
 cp terminal/kitty.conf ~/.config/kitty/kitty.conf
 cp terminal/fish.conf 
-
-cp -r hypr/ ~/.config;
 
 mkdir -p ~/.local/share/rofi/themes/
 cp rofi/themes/* ~/.local/share/rofi/themes
