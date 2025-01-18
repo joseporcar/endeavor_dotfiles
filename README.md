@@ -3,7 +3,6 @@ NOTE: add the theme to /env/environment for gtk compatibility (GTK_THEME=)
 
 TODO: 
 Urgent:
-- Install and test Helix
 - TOP BAR ON AGS
 
 Not-Urgent:
@@ -13,6 +12,7 @@ Not-Urgent:
 - fullscreen functionality on hyprland (or hide topbar)
 - modularize this. (one repo for hypr, one repo for rofi, etc.)
 - Fish configging? 
+- Install and test Helix
 - fixing cursor theme on gtk4 https://bbs.archlinux.org/viewtopic.php?id=299624
 
 Backlog:
