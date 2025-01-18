@@ -11,6 +11,7 @@ Not-Urgent:
 - change stuff to Mocha
 - named screenshots on hyprshot
 - fullscreen functionality on hyprland (or hide topbar)
+- modularize this. (one repo for hypr, one repo for rofi, etc.)
 
 Backlog:
 - Evaluate Ghostty. If bad become a power kitty user
