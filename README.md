@@ -12,6 +12,7 @@ Not-Urgent:
 - named screenshots on hyprshot
 - fullscreen functionality on hyprland (or hide topbar)
 - modularize this. (one repo for hypr, one repo for rofi, etc.)
+- Fish configging? 
 
 Backlog:
 - Evaluate Ghostty. If bad become a power kitty user
