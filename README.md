@@ -2,7 +2,6 @@ My rice for my current system.
 
 TODO: 
 Urgent:
-- fix gtk themes: look into adwgtk3
 - Install and test Helix
 - TOP BAR ON AGS
 
