@@ -1,15 +1,13 @@
 #!/bin/bash
 
-sudo pacman -S fastfetch kitty fish rofi waybar tlp ttf-jetbrains-mono-nerd nwg-look swaync qt5-wayland qt6-wayland brightnessctl rustup cheese;
+sudo pacman -S fastfetch kitty fish tlp ttf-jetbrains-mono-nerd nwg-look swaync qt5-wayland qt6-wayland rustup cheese;
 
-yay -S aylurs-gtk-shell-git hyprland-meta-git zapzap hyprshot-git visual-studio-code-bin gtk-engine-murrine lxappearance colloid-catppuccin-gtk-theme-git helix-git;
+yay -S zapzap visual-studio-code-bin gtk-engine-murrine lxappearance colloid-catppuccin-gtk-theme-git helix-git;
 
 # GTK theme
 cp -r /usr/share/themes/Colloid-Dark-Compact-Catppuccin/ .config/gtk-4.0/
 
-
-systemctl --user enable --now hyprpolkitagent.service
-cp -r hypr/ ~/.config;
+sudo chmod a+x ./hypr/setup.sh
 
 # TLP
 sudo sudo systemctl enable tlp.service;
@@ -18,11 +16,6 @@ cp tlp.conf /etc;
 
 cp terminal/kitty.conf ~/.config/kitty/kitty.conf
 cp terminal/fish.conf 
-
-mkdir -p ~/.local/share/rofi/themes/
-cp rofi/themes/* ~/.local/share/rofi/themes
-mkdir ~/.config/rofi
-cp rofi/config.rasi ~/.config/rofi
 
 rustup default stable
 
