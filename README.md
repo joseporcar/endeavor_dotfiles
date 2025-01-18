@@ -1,8 +1,8 @@
 My rice for my current system.
+NOTE: add the theme to /env/environment for gtk compatibility (GTK_THEME=)
 
 TODO: 
 Urgent:
-- Changing cursor theme
 - Install and test Helix
 - TOP BAR ON AGS
 
@@ -13,6 +13,7 @@ Not-Urgent:
 - fullscreen functionality on hyprland (or hide topbar)
 - modularize this. (one repo for hypr, one repo for rofi, etc.)
 - Fish configging? 
+- fixing cursor theme on gtk4 https://bbs.archlinux.org/viewtopic.php?id=299624
 
 Backlog:
 - Evaluate Ghostty. If bad become a power kitty user
