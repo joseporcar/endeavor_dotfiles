@@ -5,6 +5,7 @@ This is not implemented on the setup script in case you need to run it multiple 
 TODO: 
 Urgent:
 - TOP BAR ON AGS
+- BLUETOOTH. make it smooth idk
 
 Not-Urgent:
 - Workspace scroll on topbar
