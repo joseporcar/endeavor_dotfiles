@@ -4,7 +4,7 @@ This is not implemented on the setup script in case you need to run it multiple 
 
 TODO: 
 Urgent:
-- TOP BAR ON AGS
+- TOP BAR ON AGS (delayed because it's low-key hard)
 - BLUETOOTH. make it smooth idk
 
 Not-Urgent:
