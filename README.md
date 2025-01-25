@@ -5,7 +5,7 @@ This is not implemented on the setup script in case you need to run it multiple 
 TODO: 
 Urgent:
 - TOP BAR ON AGS (delayed because it's low-key hard)
-- BLUETOOTH. make it smooth idk
+- BLUETOOTH. make it smooth idk. Bluetooth fails with buds 3 pro
 
 Not-Urgent:
 - Workspace scroll on topbar
