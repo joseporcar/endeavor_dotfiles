@@ -7,6 +7,9 @@ cp -r hypr/ ~/.config;
 
 #cursor
 
+# for dotools
+groupadd -f input
+sudo usermod -a -G input $USER
 
 mkdir -p ~/.local/share/rofi/themes/
 cp rofi/themes/* ~/.local/share/rofi/themes
