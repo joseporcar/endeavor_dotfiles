@@ -1,0 +1,55 @@
+* {
+    txt: #8aadf4ff;
+    txt-accent: #c6a0f6;
+    accent: var(txt-accent);
+    bg: #1e2030ff;
+    background-color: #00000000;
+    text-color: var(txt);
+    font: "JetBrainsMono Nerd Font Mono Regular 13";
+}
+
+configuration {
+    display-calc: "calc: ";
+    drun-display-format: "{name}";
+    disable-history: false;
+    click-to-exit: true;
+    location: 0;
+}
+window {
+    orientation: horizontal;
+    transparency: "real";
+    // border: 2px;
+    // border-color: accent;
+    border-radius: 0px;
+    width: 100%;
+    anchor: center;
+    location: north west;
+    x-offset: 0;
+    y-offset: -30;
+    background-color: #00000077;
+    height: 30px;
+    children: [mainbox];
+}
+mainbox {
+    orientation: horizontal;
+    children: [ entry, message ];
+    //spacing: 10px;
+    //padding: 0px;
+    //margin: 0;
+}
+message {
+    layout: horizontal;
+    expand: true;
+    anchor: east;
+    location: east;
+    children: [dummy, textbox];
+}
+dummy {
+    width: 100px;
+    background-color: #000000ff;
+}
+textbox {
+    anchor: east;
+    location: east; 
+    direction: east;
+}
