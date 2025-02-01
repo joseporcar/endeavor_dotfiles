@@ -2,11 +2,11 @@ My rice for my current system.
 NOTE: add the theme to /env/environment for gtk compatibility (GTK_THEME=)
 This is not implemented on the setup script in case you need to run it multiple times. someday gotta make it check if it exists before editing... someday
 
+For bluetooth (at least for buds 3 pro), if facing conectivity issues after a reboot use blueman to connect to serial port, then disconnect, then connect normally. Yes its a pain
 TODO: 
 Urgent:
 - TOP BAR ON AGS (delayed because it's low-key hard)
     - Includes calculator
-- BLUETOOTH. make it smooth idk. Bluetooth fails with buds 3 pro
 
 Not-Urgent:
 - Workspace scroll on topbar
