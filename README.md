@@ -7,6 +7,8 @@ TODO:
 Urgent:
 - TOP BAR ON AGS (delayed because it's low-key hard)
     - Includes calculator
+    -consider exploring hyprpanel to have a template
+
 
 Not-Urgent:
 - Workspace scroll on topbar
