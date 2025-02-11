@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S fastfetch kitty fish tlp ttf-jetbrains-mono-nerd nwg-look swaync qt5-wayland qt6-wayland rustup cheese;
+sudo pacman -S fastfetch kitty fish tlp nwg-look swaync qt5-wayland qt6-wayland rustup cheese;
 
 yay -S zapzap visual-studio-code-bin gtk-engine-murrine lxappearance colloid-catppuccin-gtk-theme-git helix-git otf-ibm-plex;
 
