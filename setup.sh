@@ -2,7 +2,7 @@
 
 sudo pacman -S fastfetch kitty fish tlp ttf-jetbrains-mono-nerd nwg-look swaync qt5-wayland qt6-wayland rustup cheese;
 
-yay -S zapzap visual-studio-code-bin gtk-engine-murrine lxappearance colloid-catppuccin-gtk-theme-git helix-git;
+yay -S zapzap visual-studio-code-bin gtk-engine-murrine lxappearance colloid-catppuccin-gtk-theme-git helix-git otf-ibm-plex;
 
 # GTK theme
 cp -r /usr/share/themes/Colloid-Dark-Compact-Catppuccin/ .config/gtk-4.0/
