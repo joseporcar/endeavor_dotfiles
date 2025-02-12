@@ -5,7 +5,7 @@
     bg: #1e2030ff;
     background-color: #00000000;
     text-color: var(txt);
-    font: "JetBrainsMono Nerd Font Mono Regular 13";
+    font: "IBM Plex Sans 600 13";
 }
 
 configuration {
@@ -73,7 +73,7 @@ mainbox {
     children: [ inputbar, listview ];
     spacing: 5px;
     padding: 15px;
-    margin: 29.5% calc(50% - 20ch);
+    margin: 29.5% calc(50% - 18ch);
 }
 
 element {
