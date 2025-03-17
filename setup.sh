@@ -5,7 +5,7 @@ sudo pacman -S fastfetch kitty fish tlp nwg-look qt5-wayland qt6-wayland rustup 
 yay -S zapzap visual-studio-code-bin gtk-engine-murrine lxappearance colloid-catppuccin-gtk-theme-git otf-ibm-plex &&
 
 # GTK theme
-cp -r /usr/share/themes/Colloid-Dark-Compact-Catppuccin/ .config/gtk-4.0/ &&
+cp -r /usr/share/themes/Colloid-Dark-Compact-Catppuccin/ ~/.config/gtk-4.0/ &&
 
 sudo chmod a+x hypr/setup.sh && ./hypr/setup.sh &&
 
