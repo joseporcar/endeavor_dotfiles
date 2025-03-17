@@ -1,17 +1,17 @@
 #!/bin/bash
 
-yay -S brightnessctl hyprland-meta-git hyprshot-git aylurs-gtk-shell-git rofi-wayland catppuccin-cursor-mocha rofi-calc dotools
+yay -S brightnessctl hyprland-meta-git hyprshot-git aylurs-gtk-shell-git rofi-wayland catppuccin-cursor-mocha rofi-calc dotools &&
 
-systemctl --user enable --now hyprpolkitagent.service 
-cp -r hypr/ ~/.config;
+systemctl --user enable --now hyprpolkitagent.service &&
+cp -r hypr/ ~/.config &&
 
 #cursor
 
 # for dotools
-groupadd -f input
-sudo usermod -a -G input $USER
+groupadd -f input &&
+sudo usermod -a -G input $USER &&
 
-mkdir -p ~/.local/share/rofi/themes/
-cp rofi/themes/* ~/.local/share/rofi/themes
-mkdir ~/.config/rofi
-cp rofi/config.rasi ~/.config/rofi
+mkdir -p ~/.local/share/rofi/themes/ &&
+cp rofi/themes/* ~/.local/share/rofi/themes &&
+mkdir ~/.config/rofi &&
+cp rofi/config.rasi ~/.config/rofi 
