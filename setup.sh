@@ -7,7 +7,7 @@ yay -S zapzap visual-studio-code-bin gtk-engine-murrine lxappearance colloid-cat
 # GTK theme
 cp -r /usr/share/themes/Colloid-Dark-Compact-Catppuccin/ .config/gtk-4.0/ &&
 
-sudo chmod a+x ./hypr/setup.sh &&
+sudo chmod a+x ./hypr/setup.sh && ./hypr/setup.sh &&
 
 # TLP
 sudo sudo systemctl enable tlp.service &&
