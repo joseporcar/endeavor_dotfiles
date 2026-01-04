@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yay -S brightnessctl hyprland-meta-git hyprshot-git aylurs-gtk-shell-git rofi-wayland catppuccin-cursor-mocha rofi-calc dotools &&
+yay -S brightnessctl hyprland-meta-git hyprshot-git hyprshutdown aylurs-gtk-shell-git rofi-wayland catppuccin-cursor-mocha rofi-calc dotools ashell-git &&
 
 systemctl --user enable --now hyprpolkitagent.service &&
 cp -r hypr/ ~/.config &&

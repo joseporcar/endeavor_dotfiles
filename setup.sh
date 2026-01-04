@@ -19,7 +19,7 @@ cp terminal/fish.conf &&
 
 rustup default stable &&
 
-flatpak install io.github.zen_browser.zen vesktop &&
+flatpak install app.zen_browser.zen vesktop &&
 chsh -s /usr/bin/fish
 
 
